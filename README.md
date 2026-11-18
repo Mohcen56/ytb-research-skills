@@ -1,4 +1,4 @@
-# youtube-research-skills
+# ytb-research-skills
 
 Skills and tools that turn Claude Code (or Antigravity / Gemini) into a YouTube research partner. It watches and breaks down other videos, pulls transcripts, analyzes channels, finds what's working in your niche this week, grabs thumbnails and writes scripts in your voice.
 
