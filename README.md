@@ -10,7 +10,7 @@ Everything runs on your computer and is free. You only need a free YouTube API k
 | Skill | What it does |
 |---|---|
 | `research` | Drop a video, channel or playlist link: adds a row to your ideas table in Canva (title, thumbnail, views, outlier score, link) and saves the thumbnail |
-| `analyse` | Full breakdown of one video in its own Canva doc, linked from that video's row in your ideas table |
+| `analyse` | Research breakdown of one video in its own Canva doc (cover, summary, timestamped breakdown table, takeaways), linked from that video's row in your ideas table |
 | `about-me` | Interviews you once so Claude always knows who you are, your goals, your audience and how you talk |
 | `bullseye` | Maps your audience from your exact niche to the broadest one, and sets your weekly content mix |
 | `channel-analysis` | Full report on any channel: which topics, hooks and formats win and why |
