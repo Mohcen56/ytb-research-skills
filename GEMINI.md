@@ -15,6 +15,8 @@ If `brand/about_me/` is empty, run the `about-me` skill before any strategy, scr
 ## Which skill
 | Task | Skill |
 |---|---|
+| Save video links to my ideas table (Canva) | `research` |
+| Full analysis of one video (Canva doc, linked in the table) | `analyse` |
 | Who I am, my goals, my voice | `about-me` |
 | Who my audience is, content mix | `bullseye` |
 | Analyze a channel | `channel-analysis` |
@@ -27,8 +29,8 @@ If `brand/about_me/` is empty, run the `about-me` skill before any strategy, scr
 
 ## Folders
 ```
-brand/        about_me/, hook_rubric.md, outro.txt (filled by the skills)
-research/     downloads, frames, notes (stays on your computer)
+brand/        about_me/, hook_rubric.md, outro.txt, ideas_doc.md (filled by the skills)
+research/     downloads, frames, thumbnails/, notes (stays on your computer)
 tools/        yt.py, reel_fetch.py, thumbs.py, script_check.py
 ```
 

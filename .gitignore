@@ -8,3 +8,5 @@ research/*
 *.mp3
 *.wav
 __pycache__/
+# your personal Canva ideas doc link
+brand/ideas_doc.md

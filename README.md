@@ -9,6 +9,8 @@ Everything runs on your computer and is free. You only need a free YouTube API k
 **Skills** (`.claude/skills/`)
 | Skill | What it does |
 |---|---|
+| `research` | Drop a video, channel or playlist link: adds a row to your ideas table in Canva (title, thumbnail, views, outlier score, link) and saves the thumbnail |
+| `analyse` | Full breakdown of one video in its own Canva doc, linked from that video's row in your ideas table |
 | `about-me` | Interviews you once so Claude always knows who you are, your goals, your audience and how you talk |
 | `bullseye` | Maps your audience from your exact niche to the broadest one, and sets your weekly content mix |
 | `channel-analysis` | Full report on any channel: which topics, hooks and formats win and why |
@@ -56,7 +58,11 @@ python tools/thumbs.py https://www.youtube.com/@somechannel/videos --max 20
 python tools/script_check.py my_script.md
 ```
 
-Or just talk to Claude: *"analyze @somechannel"*, *"what's working in my niche this week"*, *"study these 5 reels"*, *"why did this video blow up?"*, *"write a script about X"*, *"is this hook good?"*
+Or just talk to Claude: *"research this <link>"*, *"analyse this <link>"*, *"analyze @somechannel"*, *"what's working in my niche this week"*, *"study these 5 reels"*, *"why did this video blow up?"*, *"write a script about X"*, *"is this hook good?"*
+
+## Your ideas table in Canva (optional)
+
+`research` and `analyse` write to Canva, so connect the Canva connector/plugin in Claude Code or Antigravity first. The first time, give it your ideas doc link, or let it create a new doc called "Video ideas". It saves the link in `brand/ideas_doc.md` and fills the same doc every time after that. Without Canva, the table is kept in `research/ideas_table.md`.
 
 ## Hear the sound (optional)
 
