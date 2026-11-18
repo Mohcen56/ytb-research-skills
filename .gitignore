@@ -1,0 +1,10 @@
+# secrets
+.env
+tools/.env
+# your downloads and media stay local
+research/*
+!research/.gitkeep
+*.mp4
+*.mp3
+*.wav
+__pycache__/
